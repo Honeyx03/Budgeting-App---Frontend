@@ -45,7 +45,7 @@ The front-end of the application is built using React and provides a user-friend
 The navigation bar is present on all pages and includes the application name and a button to create a new transaction.
 
 #### Date Format Conversion
-The application supports inputting dates in the "MM/dd/yyyy" format. Upon submission, the dates are converted to the "MMMM d, yyyy" format for human readability.
+The application supports inputting dates in the "MM/dd/yyyy" format. Upon submission, the dates are converted to the "Month day, year" format for human readability.
 
 #### Front-end Calculations
 The total account balance is calculated based on transaction amounts, considering whether the transaction is an income or deduction. The CSS of the total balance changes color based on its value (green for positive, yellow for near zero, and red for negative).
